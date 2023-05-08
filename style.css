@@ -6,9 +6,12 @@ body {
 #Home {
     justify-content: center;
     text-align: center;
-    background-image:;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
+img {
+    filter:blur(2px);
+    margin: 0;
+}

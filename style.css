@@ -24,8 +24,9 @@ img {
     padding: 10px;
     position: fixed;
     top: 0;
-    width: 100%;
-    float:left;
+    left: 0;
+    width: 200px;
+    height: 100%;
   }
   
   .nav-links {
@@ -33,11 +34,11 @@ img {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
   }
   
   .nav-links li {
-    margin-right: 15px;
+    margin-bottom: 15px;
   }
   
   .nav-links a {

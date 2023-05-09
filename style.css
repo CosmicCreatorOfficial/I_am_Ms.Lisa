@@ -45,5 +45,6 @@ img {
   .nav-links a:hover {
     background-color: #333;
     color: #fff;
+    float: left;
   }
   
